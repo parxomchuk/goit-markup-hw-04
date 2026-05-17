@@ -33,7 +33,7 @@
 
 .img-portfolio {
     display: block;
-    transition-property: background-color, opacity, transform;
+    transition-property: background-color, opacity;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }

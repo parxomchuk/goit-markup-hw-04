@@ -74,14 +74,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    transition-property: background-color, fill;
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
-    fill: #F4F4FD;
     background-color: #404BBF;
 }
 
