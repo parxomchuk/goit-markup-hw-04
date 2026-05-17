@@ -30,7 +30,15 @@
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    padding-top: 8px;
+}
+
+.footer-social-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding-top: 16px;
 }
 
 .footer-social-link {
@@ -50,5 +58,5 @@
 .footer-social-link:hover,
 .footer-social-link:focus {
     fill: #F4F4FD;
-    background-color: #404BBF;
+    background-color: #31D0AA;
 }

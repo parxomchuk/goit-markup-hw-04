@@ -11,7 +11,7 @@
 }
 
 .header {
-border-bottom: 1px solid #E7E9FC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo-web {
@@ -24,6 +24,7 @@ border-bottom: 1px solid #E7E9FC;
     color: #F4F4FD;
 }
 .menu-nav-links {
+    position: relative;
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -33,19 +34,21 @@ border-bottom: 1px solid #E7E9FC;
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 24px 0;
+    transition: color 0.25s ease-in-out;
 }
 
-.menu-nav-links::after {
+.activator::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     content: "";
-    display: flex;
-    width: 0;
-    height: 4px;
-    background-color: #404BBF;
-    border-radius: 2px;
 }
 
-.menu-nav-links:hover::after {
+.activator:active::after {
     width: 100%;
+    background-color: #404BBF;
+    height: 4px;
+    border-radius: 2px;
 }
 
 .menu-nav a:hover,
@@ -61,6 +64,7 @@ border-bottom: 1px solid #E7E9FC;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    transition: color 0.3s 250ms;
 }
 .contacts a:hover ,
 .contacts a:focus {
