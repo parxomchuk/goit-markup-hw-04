@@ -52,13 +52,11 @@
 .portfolio-png:hover .img-portfolio,
 .portfolio-png:focus .img-portfolio {
     background-color: #4D5AE5;
-    opacity: 0;
     cursor: pointer;
 }
 
 .portfolio-png:hover .hover-text,
 .portfolio-png:focus .hover-text {
-    opacity: 1;
     transform: translateY(0);
 }
 
@@ -73,7 +71,6 @@
     color: #F4F4FD;
     box-sizing: border-box;
     padding: 40px 32px;
-    opacity: 0;
     transform: translateY(100%);
     transition: transform 0.25s ease-in-out;
 }
