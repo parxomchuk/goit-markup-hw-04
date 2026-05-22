@@ -50,14 +50,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    transition-property: background-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-    fill: #F4F4FD;
     background-color: #31D0AA;
 }
 
